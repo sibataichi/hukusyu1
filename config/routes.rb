@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'jobs/homes'
+  get 'jobs/top'
+  get 'jobs/index'
+  get 'jobs/show'
+  get 'jobs/edit'
   get 'user/top'
   get 'user/about'
   get 'user/index'
