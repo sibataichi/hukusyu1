@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'shops/top'
+  get 'shops/about'
+  get 'shops/fannd'
   get 'jobs/homes'
   get 'jobs/top'
   get 'jobs/index'
