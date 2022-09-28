@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'foxs/index'
+  get 'foxs/show'
+  get 'foxs/edit'
   get 'cakes/index'
   get 'cakes/show'
   get 'cakes/edit'
